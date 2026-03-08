@@ -6,11 +6,12 @@ CCLaboratories Biodiversity Atlas
 */
 
 body {
-    background-color: rgb(97, 88, 88);
-    color: DimGray;
+    background: linear-gradient(180deg, #0d0d14 0%, #08080c 100%);
+    color: #bbb;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
     line-height: 1.5em;
+    min-height: 100vh;
 }
 
 /* title */
@@ -24,6 +25,8 @@ body {
     font-weight: 600;
     margin-top: 80px;
     margin-bottom: 60px;
+    color: #e0e0e8;
+    text-shadow: 0 0 12px rgba(180, 160, 220, 0.5);
 }
 
 /* main content */
@@ -34,19 +37,19 @@ body {
 }
 
 .black {
-    color: black;
+    color: #888;
 }
 
 .red {
-    color: DeepPink;
+    color: #a99bce;
 }
 
 .green {
-    color: LightSeaGreen;
+    color: #8899aa;
 }
 
 .yellow {
-    color: GoldenRod;
+    color: #bba455;
 }
 
 .two-columns {
@@ -76,16 +79,15 @@ body {
     right: 15px;
     top: 15px;
     padding: 5px 10px;
-    color: dimgrey;
-    border: solid grey 0.5px;
+    color: #666;
+    border: solid #444 0.5px;
     font-size: 0.6em;
     text-decoration: none;
 }
 
 #home a:hover {
-    background-color: black;
-    color: white;
-    font-weight: bold;
+    color: #ccc;
+    border-color: #888;
 }
 
 /* p5.js sketch */
