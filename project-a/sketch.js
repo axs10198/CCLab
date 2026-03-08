@@ -632,3 +632,11 @@ function drawSpikes(sx, sy, count) {
 
   pop()
 }
+
+
+// press G to save a 5 second GIF
+function keyPressed() {
+  if (key === 'g' || key === 'G') {
+    saveGif('void-wanderer', 5)
+  }
+}
